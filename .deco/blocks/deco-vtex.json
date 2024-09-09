@@ -1,0 +1,10 @@
+{
+  "__resolveType": "site/apps/deco/vtex.ts",
+  "defaultSegment": {
+    "channelPrivacy": "public"
+  },
+  "platform": "vtex",
+  "account": "rosavalverde",
+  "publicUrl": "www.rosavalverde.com.br",
+  "salesChannel": "1"
+}
