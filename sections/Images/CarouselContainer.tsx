@@ -21,13 +21,13 @@ export interface Banner {
 
   action?: {
     /** @description when user clicks on the image, go to this link */
-    href: string;
+    href?: string;
     /** @description Image text title */
-    title: string;
+    title?: string;
     /** @description Image text subtitle */
-    subTitle: string;
+    subTitle?: string;
     /** @description Button label */
-    label: string;
+    label?: string;
   };
 }
 
@@ -108,14 +108,14 @@ function BannerItem(
         
         </>
       )}
-      <div class="absolute h-full w-full top-0 left-0 bg-[#1010104D]"></div>
+      {/* <div class="absolute h-full w-full top-0 left-0 bg-[#1010104D]"></div> */}
       <Picture preload={lcp} {...viewPromotionEvent}>
         <Source
           media="(max-width: 767px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={mobile}
-          width={375}
-          height={404}
+          width={336}
+          height={400}
         />
         <Source
           media="(min-width: 768px)"
@@ -135,7 +135,7 @@ function BannerItem(
   );
 }
 
-function Carousel({ images = [], preload, interval }: Props) {
+function CarouselContainer({ images = [], preload, interval }: Props) {
   const id = useId();
 
   return (
@@ -146,7 +146,7 @@ function Carousel({ images = [], preload, interval }: Props) {
         "grid-rows-[1fr_32px_1fr_64px]",
         "grid-cols-[32px_1fr_32px] min-h-[404px]",
         "sm:grid-cols-[112px_1fr_112px] sm:min-h-min",
-        "w-screen",
+        "w-screen container px-5 pt-5",
       )}
     >
       <div class="col-span-full row-span-full">
@@ -177,29 +177,9 @@ function Carousel({ images = [], preload, interval }: Props) {
         </Slider.NextButton>
       </div>
 
-      {/* <ul
-        class={clx(
-          "col-span-full row-start-4 z-10",
-          "carousel justify-center gap-3",
-        )}
-      >
-        {images.map((_, index) => (
-          <li class="carousel-item">
-            <Slider.Dot
-              index={index}
-              class={clx(
-                "bg-black opacity-20 h-3 w-3 no-animation rounded-full",
-                "disabled:w-8 disabled:bg-base-100 disabled:opacity-100 transition-[width]",
-              )}
-            >
-            </Slider.Dot>
-          </li>
-        ))}
-      </ul> */}
-
       <Slider.JS rootId={id} interval={interval && interval * 1e3} infinite />
     </div>
   );
 }
 
-export default Carousel;
+export default CarouselContainer;

@@ -22,12 +22,12 @@ export interface Props extends SectionHeaderProps {
 function Card({ image, href, label }: Item) {
   return (
     <a href={href} class="flex flex-col items-center justify-center gap-4">
-      <div class="w-44 h-44 rounded-full bg-base-200 flex justify-center items-center border border-transparent hover:border-primary">
+      <div class="rounded-full flex justify-center items-center border border-transparent hover:border-primary">
         <Image
           src={image}
           alt={label}
-          width={100}
-          height={100}
+          width={106}
+          height={106}
           loading="lazy"
         />
       </div>
@@ -50,7 +50,7 @@ function CategoryGrid({ title, cta, items }: Props) {
           </div>
         )
         : (
-          <Slider class="carousel carousel-center sm:carousel-end gap-5 w-full">
+          <Slider class="carousel carousel-center sm:carousel-end gap-3 w-full">
             {items.map((i, index) => (
               <Slider.Item
                 index={index}

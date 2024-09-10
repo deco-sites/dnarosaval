@@ -33,7 +33,9 @@ export default defineApp(async (_req, ctx) => {
       </Head>
 
       {/* Rest of Preact tree */}
-      <ctx.Component />
+      <main class="bg-[#FDF0F0]">
+        <ctx.Component />
+      </main>
 
       <script
         type="module"
