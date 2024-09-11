@@ -2,166 +2,139 @@
   "__resolveType": "site/sections/Footer/Footer.tsx",
   "links": [
     {
-      "title": "Our Company",
+      "title": "rosa valverde",
       "children": [
         {
-          "title": "About us",
+          "title": "sobre nós",
           "href": "#"
         },
         {
-          "title": "Our blog",
+          "title": "lojas físicas",
           "href": "#"
         },
         {
-          "title": "Stores",
+          "title": "atelier",
           "href": "#"
         },
         {
-          "title": "Work with us",
+          "title": "política de privacidade",
+          "href": "#"
+        },
+        {
+          "title": "seja um franqueado",
+          "href": "#"
+        },
+        {
+          "title": "trabalhe conosco",
           "href": "#"
         }
       ],
       "href": "#"
     },
     {
-      "title": "Orders & Purchases",
+      "title": "ajuda",
       "href": "#",
       "children": [
         {
-          "title": "Check order status",
+          "title": "entrega e garantia",
           "href": "#"
         },
         {
-          "title": "Return and exchanges",
+          "title": "pagamento e cashback",
           "href": "#"
         },
         {
-          "title": "Product retail",
+          "title": "entrega",
           "href": "#"
         },
         {
-          "title": "Gift cards",
+          "title": "cuidados",
+          "href": "#"
+        },
+        {
+          "title": "mais dúvidas",
           "href": "#"
         }
       ]
     },
     {
-      "title": "Support & Services",
+      "title": "contato",
       "href": "#",
       "children": [
         {
-          "title": "Support Center",
+          "title": "trocas e devoluções",
           "href": "#"
         },
         {
-          "title": "Schedule a service",
-          "href": "#"
-        },
-        {
-          "title": "Contact us",
+          "title": "sac",
           "href": "#"
         }
       ]
-    },
-    {
-      "title": "Support & Services",
-      "children": [
-        {
-          "title": "Support Center",
-          "href": "#"
-        },
-        {
-          "title": "Schedule a service",
-          "href": "#"
-        },
-        {
-          "title": "Contact us",
-          "href": "#"
-        }
-      ],
-      "href": "#"
     }
   ],
   "social": [
     {
       "alt": "facebook",
       "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/66137259-6bdb-4322-bed1-a2593560934c"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/5d1c0091-3032-4a08-a05c-d59fa548d4b5/Group-2659.svg"
     },
     {
       "alt": "Instagram",
       "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/e71ae7f3-0f51-4185-af0a-fca08ebe4451"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/53599132-bf5d-4c23-a3c0-113dbb90e98d/Group-2660.svg"
     },
     {
-      "alt": "Pinterest",
+      "alt": "youtube",
       "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/4becba39-fc08-4df2-bb5d-5e843f375deb"
-    },
-    {
-      "alt": "X",
-      "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/179a9ee9-3813-47b8-96eb-11e0c5558ede"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/8c3793e5-95d3-42b2-9452-7ebbc2ec5448/Group-2661.svg"
     }
   ],
   "paymentMethods": [
     {
-      "alt": "Paypal",
-      "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/7d858621-469e-4528-91b5-8c79fc413162"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/67dd1a0f-64f9-4595-b447-6952b3ce4068/jcb.svg",
+      "alt": "jcb"
     },
     {
-      "alt": "Mastercard",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/88ab870c-4256-44b4-8da3-3cefe0436e87"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/2004c22f-7ea9-45ad-a494-646ba31c995e/visa.svg",
+      "alt": "visa"
     },
     {
-      "alt": "Maestro",
-      "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/e94aaf80-25f5-4e23-8708-14d78ffdebbb"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/dbda22bf-3ed2-4a1a-8a27-cf69c3de144f/mastercard.svg",
+      "alt": "mastercard"
     },
     {
-      "alt": "Google Pay",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/ccddc66e-baa8-4b44-a52c-ea48d8e111b5"
-    },
-    {
-      "alt": "Elo",
-      "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/11f90dd4-91b5-4b60-9304-f8a7a9be84eb"
-    },
-    {
-      "alt": "Diners",
-      "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/20bb8e66-5495-4f92-a6d0-4967a66f3a44"
-    },
-    {
-      "alt": "Apple Pay",
-      "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/d4227ed7-333d-49b8-b3e2-35719f606640"
-    },
-    {
-      "alt": "Amex",
-      "href": "#",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/023472cf-782d-4a22-82d9-ecdf18466d96"
-    },
-    {
-      "alt": "Visa",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/2d213fd6-2754-4e92-a6f1-03825f71c7af"
-    }
-  ],
-  "policies": [
-    {
-      "title": "Privacy Policy",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/d53e5e96-6705-4a98-ba8b-983bbf39b885/american-express.svg",
+      "alt": "american express",
       "href": "#"
     },
     {
-      "title": "Terms and Conditions",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/20f5e8b6-bd90-42a7-8855-f59f9cc4dde2/boleto.svg",
+      "alt": "boleto",
       "href": "#"
     },
     {
-      "title": "Cookies Policy",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/5c1b1c16-2ed9-4310-8596-044f7b72ea20/diners-club.svg",
+      "alt": "dinners"
+    },
+    {
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/c27d655c-1b48-4c3d-8dd0-c4d617854e50/elo.svg",
+      "alt": "elo"
+    },
+    {
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/85200653-f85a-43bc-bb18-aa0bab271dfe/discover.svg",
+      "alt": "discover"
+    },
+    {
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/7075f7d8-837f-44fd-a5b5-323610e21f5e/hipercard.svg",
+      "alt": "hipercard"
+    },
+    {
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/d4130994-0ac3-4718-a89a-f4a407aabf14/aura.svg",
+      "alt": "aura",
       "href": "#"
     }
   ],
+  "policies": [],
   "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/f1faab73-e4ff-4037-b7c4-5d02bd0b1209",
   "trademark": "TM & © 2023 Deco Storefront, Inc."
 }

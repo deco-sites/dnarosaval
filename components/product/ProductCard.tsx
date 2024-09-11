@@ -8,7 +8,7 @@ import { useOffer } from "../../sdk/useOffer.ts";
 import { useSendEvent } from "../../sdk/useSendEvent.ts";
 import { useVariantPossibilities } from "../../sdk/useVariantPossiblities.ts";
 import WishlistButton from "../wishlist/WishlistButton.tsx";
-import AddToCartButton from "./AddToCartButton.tsx";
+// import AddToCartButton from "./AddToCartButton.tsx";
 import { Ring } from "./ProductVariantSelector.tsx";
 import { useId } from "../../sdk/useId.ts";
 
@@ -44,7 +44,12 @@ function ProductCard({
   const title = isVariantOf?.name ?? product.name;
   const [front, back] = images ?? [];
 
-  const { listPrice, price, seller = "1", availability } = useOffer(offers);
+  const { 
+    listPrice, 
+    price, 
+    // seller = "1", 
+    availability 
+  } = useOffer(offers);
   const inStock = availability === "https://schema.org/InStock";
   const possibilities = useVariantPossibilities(hasVariant, product);
   const firstSkuVariations = Object.entries(possibilities)?.[0];
@@ -55,6 +60,8 @@ function ProductCard({
     : 0;
 
   const item = mapProductToAnalyticsItem({ product, price, listPrice, index });
+
+  const words = title?.split(" ");
 
   {/* Add click event to dataLayer */}
   const event = useSendEvent({
@@ -159,8 +166,17 @@ function ProductCard({
       </figure>
 
       <a href={relativeUrl} class="pt-5">
-        <span class="font-medium">
-          {title}
+        <span class="font-light text-[11px] text-[#1e1e1e]">
+          {words && words?.length > 1 && (
+            <>
+              <b class="text-black">{words[0]}</b> {words?.slice(1).join(" ")}
+            </>
+          )}
+          {!words && (
+            <>
+              {title}
+            </>
+          )}
         </span>
 
         <div class="flex gap-2 pt-2">
@@ -197,7 +213,8 @@ function ProductCard({
 
       <div class="flex-grow" />
 
-      <div>
+      {
+        /* <div>
         {inStock
           ? (
             <AddToCartButton
@@ -227,7 +244,8 @@ function ProductCard({
               Sold out
             </a>
           )}
-      </div>
+      </div> */
+      }
     </div>
   );
 }

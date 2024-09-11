@@ -137,39 +137,65 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Images/Banner.tsx",
-        "title": "Register and Save Big!",
-        "cta": {
-          "label": "Sign Up",
-          "href": "#"
+      "__resolveType": "site/sections/Images/LojasCarousel.tsx",
+      "interval": 8,
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/f4279c9e-c181-426d-af72-543f45beccaf/image-(7).png",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/f4279c9e-c181-426d-af72-543f45beccaf/image-(7).png",
+          "alt": "Loja X"
         },
-        "description": "<p><span style=\"color: rgb(45, 194, 107);\" data-mce-style=\"color: rgb(45, 194, 107);\">Sign up now to get up to 50% off on your first order. Limited time offer!</span></p>",
-        "images": {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/cf96d47f-564f-40da-ad94-7acac5f39327",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/4d5c3212-3f75-4d50-89f3-970815748b43"
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/f4279c9e-c181-426d-af72-543f45beccaf/image-(7).png",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/f4279c9e-c181-426d-af72-543f45beccaf/image-(7).png",
+          "alt": "Loja Y"
+        },
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/f4279c9e-c181-426d-af72-543f45beccaf/image-(7).png",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/f4279c9e-c181-426d-af72-543f45beccaf/image-(7).png",
+          "alt": "Loja Z"
         }
+      ],
+      "title": "nossas lojas",
+      "description": "<p><span>a Rosa Valverde conta com 9 lojas espalhadas por São Paulo capital, ABC Paulista e Alphaville. Em cada uma delas temos uma variedade incrível com mais de 3 mil produtos. Assim como na loja on-line, cada loja física recebe poucas unidades por modelo, o que torna a sua peça ainda mais exclusiva, além de manter nosso estoque sempre renovado e antenado!</span></p>",
+      "action": {
+        "link": "#",
+        "label": "clique e encontre a loja mais próxima"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
-        "label": "Sign up",
-        "placeholder": "Email address",
-        "empty": {
-          "title": "Get top deals, latest trends, and more.",
-          "description": "Receive our news and promotions in advance. Enjoy and get 10% off your first purchase. For more information click here."
+      "__resolveType": "site/sections/Content/InstagramSection.tsx",
+      "title": "<p><span>siga </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://instagram.com/rosavalverde\"><strong><span>@rosavalverde</span></strong><span> </span></a><span>no instagram e fique sempre antenada</span></p>",
+      "posts": [
+        {
+          "link": "#",
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/c1deaed9-ece4-4401-abfc-1cce3f03eeb3/image-(4).png"
         },
-        "success": {
-          "title": "Thank you for subscribing!",
-          "description": "You’re now signed up to receive the latest news, trends, and exclusive promotions directly to your inbox. Stay tuned!"
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/07c2c886-f13d-44a6-a330-97cfb6b3c00b/image-(5).png",
+          "link": "#"
         },
-        "failed": {
-          "title": "Oops!. Something went wrong!",
-          "description": "Something went wrong. Please try again. If the problem persists, please contact us."
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dnarosaval/9b9a87d1-3db1-42e2-98b9-bbdf1a9aaf2a/image-(6).png",
+          "link": "#"
         }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
+      "label": "ENVIAR",
+      "placeholder": "digite seu email",
+      "empty": {
+        "title": "INSCREVA-SE EM NOSSA NEWSLETTER",
+        "description": "saiba primeiro de todas as nossas novidades e promoções"
+      },
+      "success": {
+        "title": "Obrigado por se inscrever",
+        "description": "Agora você receberá as melhores promoções e novidades"
+      },
+      "failed": {
+        "title": "Oops!. Algo deu errado!",
+        "description": "Por favor tente novamente, se persistir o problema entre em contato conosco."
       }
     },
     {

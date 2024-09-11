@@ -23,7 +23,7 @@ function ProductSlider({ products, itemListName }: Props) {
         }}
       >
         <div class="col-start-1 col-span-3 row-start-1 row-span-1">
-          <Slider class="carousel carousel-center sm:carousel-end gap-5 sm:gap-10 w-full">
+          <Slider class="carousel carousel-start sm:carousel-end gap-5 sm:gap-10 w-full">
             {products?.map((product, index) => (
               <Slider.Item
                 index={index}
@@ -37,7 +37,7 @@ function ProductSlider({ products, itemListName }: Props) {
                   index={index}
                   product={product}
                   itemListName={itemListName}
-                  class="w-[287px] sm:w-[300px]"
+                  class="w-[160px] sm:w-[300px]"
                 />
               </Slider.Item>
             ))}

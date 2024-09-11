@@ -76,36 +76,37 @@ function BannerItem(
     >
       {action && (
         <>
-        
-        <div
-          class={clx(
-            "absolute h-full w-full top-0 left-0 z-10",
-            "flex flex-col justify-center items-center",
-            "px-5 sm:px-0",
-            "sm:left-40 sm:items-start sm:max-w-96",
-          )}
-        >
-          <span class="text-base font-normal text-center text-white">
-            {action.title}
-          </span>
-          <span class="font-thin text-sm text-center text-white pb-24 md:pb-12 max-w-[160px]">
-            {action.subTitle}
-          </span>
-        </div>
+          <div
+            class={clx(
+              "absolute h-full w-full top-0 left-0 z-10",
+              "flex flex-col justify-center items-center",
+              "px-5 sm:px-0",
+              "sm:left-40 sm:items-start sm:max-w-96",
+            )}
+          >
+            <span class="text-base font-normal text-center text-white">
+              {action.title}
+            </span>
+            <span class="font-thin text-sm text-center text-white pb-24 md:pb-12 max-w-[160px]">
+              {action.subTitle}
+            </span>
+          </div>
 
-        <div
-          class={clx(
-            "absolute h-full w-full bottom-0 left-0 z-10",
-            "flex flex-col justify-end items-center",
-            "px-5 sm:px-0",
-            "sm:left-40 sm:items-start sm:max-w-96",
-          )}
-        >
-          <button class="btn btn-outline border-0 min-w-[180px] text-sm text-white font-thin text-center underline" aria-label={action.label}>
-            {action.label}
-          </button>
-        </div>
-        
+          <div
+            class={clx(
+              "absolute h-full w-full bottom-0 left-0 z-10",
+              "flex flex-col justify-end items-center",
+              "px-5 sm:px-0",
+              "sm:left-40 sm:items-start sm:max-w-96",
+            )}
+          >
+            <button
+              class="btn btn-outline border-0 min-w-[180px] text-sm text-white font-thin text-center underline"
+              aria-label={action.label}
+            >
+              {action.label}
+            </button>
+          </div>
         </>
       )}
       {/* <div class="absolute h-full w-full top-0 left-0 bg-[#1010104D]"></div> */}
@@ -173,7 +174,7 @@ function CarouselContainer({ images = [], preload, interval }: Props) {
           class="btn btn-neutral border-0 btn-outline btn-circle no-animation btn-sm"
           disabled={false}
         >
-          <Icon id="chevron-right" class="text-white"/>
+          <Icon id="chevron-right" class="text-white" />
         </Slider.NextButton>
       </div>
 

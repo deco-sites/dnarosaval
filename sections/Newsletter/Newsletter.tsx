@@ -52,11 +52,11 @@ function Notice(
   { title, description }: { title?: string; description?: string },
 ) {
   return (
-    <div class="flex flex-col justify-center items-center sm:items-start gap-4">
-      <span class="text-3xl font-semibold text-center sm:text-start">
+    <div class="flex flex-col justify-center items-center sm:items-start gap-2">
+      <span class="text-sm font-bold text-center">
         {title}
       </span>
-      <span class="text-sm font-normal text-base-400 text-center sm:text-start">
+      <span class="text-sm font-light text-center px-5">
         {description}
       </span>
     </div>
@@ -85,8 +85,8 @@ function Newsletter({
 }: SectionProps<typeof loader, typeof action>) {
   if (status === "success" || status === "failed") {
     return (
-      <Section.Container class="bg-base-200">
-        <div class="p-14 flex flex-col sm:flex-row items-center justify-center gap-5 sm:gap-10">
+      <Section.Container>
+        <div class="p-5 flex flex-col sm:flex-row items-center justify-center gap-5 sm:gap-10">
           <Icon
             size={80}
             class={clx(
@@ -101,8 +101,8 @@ function Newsletter({
   }
 
   return (
-    <Section.Container class="bg-base-200">
-      <div class="p-14 grid grid-flow-row sm:grid-cols-2 gap-10 sm:gap-20 place-items-center">
+    <Section.Container>
+      <div class="p-5 grid grid-flow-row sm:grid-cols-2 gap-6 sm:gap-20 place-items-center">
         <Notice {...empty} />
 
         <form
@@ -113,13 +113,13 @@ function Newsletter({
         >
           <input
             name="email"
-            class="input input-bordered flex-grow"
+            class="input border-black placeholder:text-black text-black input-bordered flex-grow bg-transparent rounded-none text-center"
             type="text"
             placeholder={placeholder}
           />
 
           <button
-            class="btn btn-primary"
+            class="btn rounded-none border border-black font-bold bg-transparent hover:bg-transparent"
             type="submit"
           >
             <span class="[.htmx-request_&]:hidden inline">
